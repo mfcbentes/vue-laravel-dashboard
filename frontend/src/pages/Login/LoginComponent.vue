@@ -1,6 +1,12 @@
 <template>
   <div class="login">
-      <p>Login do sistema</p>
+      <div class="info">
+          <h1 class="title-login">Título</h1>
+          <p>Login do sistema</p>
+      </div>
+      <div class="footer">
+          <h1>Rodapé</h1>
+      </div>
   </div>
 </template>
 
@@ -10,10 +16,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.login{
-    width: 100%;
-    height: 100vh;
-    background-color: #069;
-}
-</style>
+<style lang="scss" src="./style.scss" scoped />
