@@ -1,19 +1,17 @@
 <template>
-  <div class="login">
-      <div class="info">
-          <h1 class="title-login">Título</h1>
-          <p>Login do sistema</p>
+  <div class="main">
+    <div class="login">
+      <div class="content-login">
+          <header>
+              <h1>Login do sistema</h1>
+          </header>
       </div>
-      <div class="footer">
-          <h1>Rodapé</h1>
-      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss" src="./style.scss" scoped />
